@@ -1,5 +1,5 @@
 # CNN-pytorch
-Simple CNN Model with pytorch and Cifar10 dataset is used. This code was for my pytorch practice so more optimization is needed for actual usage.
+Simple CNN Model with pytorch and MNIST dataset is used. This code was for my pytorch practice so more optimization is needed for actual usage.
 
 
 ## Usage
