@@ -7,16 +7,15 @@ To train the model without Batch Normalization:
 
     $ python cnn.py
 
-or with Batch Normalization:
-
-    $ python cnn_bn.py
-
 
 ## Performance
 3 epochs * 1875 steps iteration result
 
-    cnn.py    --> training loss: 0.076 / test accuracy: 97.32
-    cnn_bn.py --> training loss: 0.110 / test accuracy: 95.12
+    cnn.py --> training loss: 0.110 / test accuracy: 95.12
+    
+    
+## To-do
+- [ ] Insert Batch Normalization Layers
 
 
 ## Author
