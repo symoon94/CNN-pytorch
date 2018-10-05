@@ -75,7 +75,7 @@ for epoch in range(epoch_num):
             print('epoch %s step [%s/%s] --> loss %.3f '%(epoch, i, len(trainloader),loss.item()))
 
 
-torch.save(cnn.state_dict(),'./cnn_mnst_wo_bn.pth')
+torch.save(cnn.state_dict(),'./cnn.pth')
 
 ## Evaluation ##
 
@@ -91,9 +91,3 @@ with torch.no_grad():
         correct += (y_pred == y_data).sum().item()
 
 print('Accuracy: %s'%(100*(correct/total)))
-
-
-'''
-## Visualization Session ##
-trainset
-'''
