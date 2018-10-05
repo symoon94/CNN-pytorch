@@ -3,7 +3,7 @@ Simple CNN Model with pytorch and MNIST dataset is used. This code was for my py
 
 
 ## Usage
-To train the model without Batch Normalization:
+To train and evaluate the model:
 
     $ python cnn.py
 
