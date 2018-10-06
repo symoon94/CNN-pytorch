@@ -1,5 +1,5 @@
 # CNN-pytorch
-Simple CNN Model with pytorch and MNIST dataset is used. This code was for my pytorch practice so more optimization is needed for actual usage.
+Simple CNN Model with pytorch and MNIST dataset is used. This code was for my pytorch practice so more optimization is needed for actual usage. You need to make a directory './data' and download MNIST dataset in the directory.
 
 
 ## Usage
